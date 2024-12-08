@@ -111,8 +111,6 @@ INSERT INTO restBill VALUES
     (00022, 160312, 545.01, 'Sunil Shah', 4, 006, 004);
 
 
--- Task 7:
-
 -- 1) 
 CREATE VIEW samsBills AS
 SELECT restStaff.first_name, restStaff.surname, restBill.bill_date, restBill.cust_name, restBill.bill_total  
